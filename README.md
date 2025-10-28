@@ -45,7 +45,7 @@ OPENAI_API_KEY=sk-proj-your-actual-api-key-here
 - No quotes around the API key
 - Replace sk-proj-your-actual-api-key-here with your actual OpenAI API key that you created
 
-## Loading the API key to your code (tutorial.py)
+## Loading the API key to your code
 Here is the code with which you can verify that your API key is loaded:
 ```
 from dotenv import load_dotenv
