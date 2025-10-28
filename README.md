@@ -48,5 +48,12 @@ OPENAI_API_KEY=sk-proj-your-actual-api-key-here
 ## Loading the API key to your code (tutorial.py)
 Here is the code with which you can verify that your API key is loaded:
 ```
-Loading the API key to your code (tutorial.py)
+from dotenv import load_dotenv
+import os
+# This loads the .env file
+load_dotenv()  
+
+# Get the API key (For verification)
+api_key = os.getenv("OPENAI_API_KEY")
+print(f"API Key loaded: { api_key }")
 ```
