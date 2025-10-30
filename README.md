@@ -1,6 +1,6 @@
 # CS 7295 Data Viz and GenAI - Tutorial on LangGraph and Agentic AI tools 
 Before the class, please complete the following setup steps to ensure you can run all the code examples during class.
-
+[Find the Google Slides here!](https://docs.google.com/presentation/d/10evK-Xzgt6ZTQH0nxUbwyhoYdNCohojMZe2Ko2eN_7c/)
 ## 1. Environment Setup
 Create a dedicatedConda environment for this tutorial:
 ```
